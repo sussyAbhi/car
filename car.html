@@ -1,58 +1,41 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-    span.Apple-tab-span {white-space:pre}
-  </style>
+<script>
+function hello(data) {
+alert(1.05**this.car_form.age.value * 3.5);
+}
+</script>
 </head>
-<body>
-<p class="p1">&lt;html&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p1">function hello(data) {</p>
-<p class="p1">alert(1.05**this.car_form.age.value * 3.5);</p>
-<p class="p1">}</p>
-<p class="p1">&lt;/script&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;form name ="car_form" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;p&gt;</p>
-<p class="p1">&lt;label&gt;How long was the car used</p>
-<p class="p1">&lt;input id="age" type="text" name="age of car" required&gt;</p>
-<p class="p1">&lt;/label&gt;<span class="Apple-converted-space"> </span></p>
-<p class="p1">&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;p&gt;</p>
-<p class="p1">&lt;label&gt;How many years ago was the car made<span class="Apple-converted-space"> </span></p>
-<p class="p1">&lt;input id="year" type="tel" name="car made"&gt;</p>
-<p class="p1">&lt;/label&gt;</p>
-<p class="p1">&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;fieldset&gt;</p>
-<p class="p1">&lt;legend&gt;How big is your car?&lt;/legend&gt;</p>
-<p class="p1">&lt;p&gt;&lt;label&gt; &lt;input type="radio" name="car" required value="a little"&gt; a little &lt;/label&gt;&lt;/p&gt;</p>
-<p class="p1">&lt;p&gt;&lt;label&gt; &lt;input type="radio" name="car" required value="sometimes"&gt; sometimes &lt;/label&gt;&lt;/p&gt;</p>
-<p class="p1">&lt;p&gt;&lt;label&gt; &lt;input type="radio" name="car" required value="a lot"&gt; a lot &lt;/label&gt;&lt;/p&gt;</p>
-<p class="p1">&lt;/fieldset&gt;</p>
-<p class="p2"><span class="Apple-tab-span">	</span></p>
-<p class="p1">&lt;p&gt;</p>
-<p class="p1">&lt;label&gt;extra info</p>
-<p class="p1">&lt;textarea name="comments" maxlength="500"&gt;&lt;/textarea&gt;</p>
-<p class="p1">&lt;/label&gt;</p>
-<p class="p1">&lt;/p&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;button type="button" onclick="hello(this)"</p>
-<p class="p1">class="signin-btn"&gt;click&lt;/button&gt;</p>
-<p class="p1">&lt;script&gt;</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/form&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-</body>
+<form name ="car_form" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>How long was the car used
+<input id="age" type="text" name="age of car" required>
+</label> 
+</p>
+
+<p>
+<label>How many years ago was the car made 
+<input id="year" type="tel" name="car made">
+</label>
+</p>
+
+<fieldset>
+<legend>How big is your car?</legend>
+<p><label> <input type="radio" name="car" required value="a little"> a little </label></p>
+<p><label> <input type="radio" name="car" required value="sometimes"> sometimes </label></p>
+<p><label> <input type="radio" name="car" required value="a lot"> a lot </label></p>
+</fieldset>
+	
+<p>
+<label>extra info
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<button type="button" onclick="hello(this)"
+class="signin-btn">click</button>
+<script>
+
+</form>
 </html>
